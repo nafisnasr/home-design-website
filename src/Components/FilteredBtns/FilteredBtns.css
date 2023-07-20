@@ -1,0 +1,34 @@
+.filtering-container {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.filtering-wrapper {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.filtering-btn {
+  border: none;
+  padding: 10px 10px;
+  outline: none;
+  cursor: pointer;
+  color: var(--dark);
+  margin: 10px;
+  border: 1px solid var(--title);
+  background-color: unset;
+  transition: all 0.3s;
+}
+.filtering-btn.highlight{
+  background-color: var(--title);
+  color: var(--white);
+}
+.filtering-btn:hover {
+  background-color: var(--title);
+  color: var(--white);
+}

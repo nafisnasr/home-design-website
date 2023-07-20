@@ -1,0 +1,46 @@
+.about-us {
+  background-color: var(--main-gray);
+  width: 100%;
+}
+.about-us-wrapper {
+  margin-top: 20px;
+  padding: 20px;
+}
+.about-us-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.about-img-container,
+.about-text-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0px;
+  direction: rtl;
+}
+.about-img-container img {
+  width: 90%;
+}
+.social-media {
+  padding: 10px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.social-media-container {
+  background-color: var(--white);
+  width: 60%;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px;
+}
+.social-media-container a {
+  margin: 10px;
+  font-size: 30px;
+  color: var(--dark);
+}

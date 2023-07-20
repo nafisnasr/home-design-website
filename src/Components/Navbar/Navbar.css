@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+.navbar-collapse {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navbar .navbar-brand {
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+}
+
+.nav-item {
+    margin-right: 10px;
+}
+
+.navbar {
+    background: unset;
+}
+.link{
+    color: inherit;
+    text-decoration: none;
+}

@@ -1,0 +1,54 @@
+.categories {
+  width: 100%;
+  padding: 30px;
+  background-color: var(--main-gray);
+}
+.categories-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.category-title {
+  color: var(--title);
+  direction: rtl;
+  font-family: "lalezar";
+  margin: 20px 0px;
+}
+.categories .box {
+  padding: 20px;
+  height: 300px;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  margin: 20px 0px;
+}
+.category-btn {
+  position: absolute;
+  bottom: 30px;
+  padding: 8px 20px;
+  border: none;
+  background-color: var(--white);
+  cursor: pointer;
+  font-size: 14px;
+  right: 32%;
+  transition: all 0.4s;
+}
+.category-btn:hover {
+  background-color: var(--dark);
+  color: var(--white);
+}
+.categories .box-1 {
+  background-image: url("../../../public/images/category-1.jpg");
+}
+.categories .box-2 {
+  background-image: url("../../../public/images/category-2.jpg");
+}
+.categories .box-3 {
+  background-image: url("../../../public/images/category-3.jpg");
+}
+.categories .box-4 {
+  background-image: url("../../../public/images/category-4.jpg");
+}

@@ -1,0 +1,60 @@
+.features {
+    width: 100%;
+    padding: 30px;
+    background-color: var(--main-gray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.features-title {
+    font-family: 'lalezar';
+    text-align: center;
+    margin: 20px 0px;
+    color: var(--title);
+}
+
+.features-container {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--white);
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 15px;
+}
+
+.box .img-container img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid var(--dark);
+}
+
+.text-container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.text-container .title {
+    font-size: 20px;
+    font-family: 'lalezar';
+    color: var(--dark);
+}
+
+.text-container .description {
+    font-size: 13px;
+    direction: rtl;
+    padding: 5px;
+    text-align: left;
+}

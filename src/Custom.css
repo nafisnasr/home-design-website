@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'vazir';
+    src: url('style/vazir-font-v16.1.0/Vazir-Medium.eot');
+    src: url('style/vazir-font-v16.1.0/Vazir-Bold.eot');
+    src: url('style/vazir-font-v16.1.0/Vazir-Light.eot');
+    src: url('style/vazir-font-v16.1.0/Vazir-Bold.woff') format('woff');
+    src: url('style/vazir-font-v16.1.0/Vazir-Medium.woff') format('woff');
+    src: url('style/vazir-font-v16.1.0/Vazir-Light.woff') format('woff');
+    src: url('style/vazir-font-v16.1.0/Vazir-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lalezar';
+    src: url('style/lalezar/Lalezar-Regular.otf');
+    src: url('style/lalezar/Lalezar-Regular.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-white: #fff3f3;
+    --main-gray:#ddd;
+    --white:#fff;
+    --dark:#212121;
+    --title:#26A69A;
+}
+
+body {
+    font-family: 'vazir' !important;
+}

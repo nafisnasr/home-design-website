@@ -1,0 +1,22 @@
+.product-box {
+  padding: 20px;
+  background-color: var(--main-gray);
+}
+.product-box-header {
+  padding: 10px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.product-box-header .icon {
+  position: absolute;
+  color: var(--title);
+  font-size: 30px;
+  left: 10px;
+  top: 50%;
+}
+.product-box-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

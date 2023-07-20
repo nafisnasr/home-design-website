@@ -1,0 +1,57 @@
+.more-info {
+  width: 100%;
+  background-color: var(--main-gray);
+}
+
+.more-info-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.more-info .img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0px;
+}
+
+.more-info .img-container img {
+  width: 80%;
+}
+.more-info-text-container {
+  direction: rtl;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px 0px;
+  position: relative;
+}
+.more-info-text-container .title {
+  font-size: 30px;
+  font-family: "lalezar";
+  margin: 10px;
+  color: var(--title);
+}
+
+.more-info-text-container .desc {
+  margin: 20px;
+  font-size: 14px;
+}
+.learn-more-btn {
+  font-size: 14px;
+  background-color: transparent;
+  padding: 10px 5px;
+  cursor: pointer;
+  border: 2px solid var(--title);
+  width: 25%;
+  position: absolute;
+  left: 50px;
+  bottom: -20px;
+  transition: all 0.3s;
+}
+.learn-more-btn:hover {
+  background-color: var(--main-white);
+}
